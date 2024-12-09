@@ -1,0 +1,31 @@
+spring:
+  # 使用 H2 Database 用来测试
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        cache:
+          # 启用二级缓存
+          use_second_level_cache: true
+          use_query_cache: true
+          # 配置缓存区域工厂
+          region:
+            factory_class: org.hibernate.cache.ehcache.EhCacheRegionFactory
+  # Spring 指定 Ehcache 配置文件
+  cache:
+    ehcache:
+      config: classpath:ehcache.xml
+    type: ehcache
+
+# H2 数据库控制台配置
+spring.h2.console:
+  enabled: true
+  path: /h2-console

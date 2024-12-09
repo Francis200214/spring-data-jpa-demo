@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+
+    <!--  默认缓存  -->
+    <defaultCache
+            maxElementsInMemory="10000"
+            eternal="false"
+            timeToIdleSeconds="120"
+            timeToLiveSeconds="120"
+            overflowToDisk="false"
+            maxElementsOnDisk="10000000"
+            diskPersistent="false"
+            diskExpiryThreadIntervalSeconds="120"
+            memoryStoreEvictionPolicy="LRU"
+    />
+
+    <!--  Student 缓存  -->
+    <cache name="studentCache"
+           maxElementsInMemory="2000"
+           eternal="false"
+           timeToIdleSeconds="4"
+           timeToLiveSeconds="4"
+           overflowToDisk="false"
+    />
+
+</ehcache>
+
