@@ -10,7 +10,7 @@
 
 
 ## 📜 项目介绍
-本项目只是一个初级使用 Spring Data JPA 的小白基础入手项目，需要搭配[Spring-Data-JPA-Demo](https://github.com/francis-zyf/Spring-Data-JPA-Demo)文章的内容进行学习使用。
+本项目只是一个初级使用 Spring Data JPA 的小白基础入手项目，需要搭配[Spring-Data-JPA-Demo](https://blog.csdn.net/weixin_43657300/article/details/144353038)文章的内容进行学习使用。
 目的是能够让小白快速上手 Spring-Data-JPA，并能进行增删改查 + 缓存等基本操作。
 
 -------------------------------------------------------------------------------
@@ -32,16 +32,4 @@
 
 ## ⭐ 支持一下
 觉得 Spring-Data-JPA-Demo 对你有帮助就请点个 ⭐Star 支持一下，让我做得更好！
-
--------------------------------------------------------------------------------
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
